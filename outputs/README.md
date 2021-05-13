@@ -25,3 +25,7 @@
 [![](img/telemedicine3.png)](img/telemedicine3.csv)
 
 [![](img/telemedicine4.png)](img/telemedicine4.csv)
+
+![](img/telemedicine5.png)
+
+![](img/diagptb.png)
