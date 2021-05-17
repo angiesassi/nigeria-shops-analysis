@@ -124,7 +124,9 @@ data_check <- check_feb_2020 %>%
   left_join(check_may_2020, by = "fac_id") %>% 
   left_join(check_jun_2020, by = "fac_id") %>% 
   left_join(check_dec_2020, by = "fac_id") %>% 
-  select(fac_id, monthyear.x, state.x, lga.x, fac_name.x, fac_type.x, fac_type_sub.x, reported_any_data_feb_2020, reported_any_data_mar_2020, reported_any_data_apr_2020, reported_any_data_may_2020, reported_any_data_jun_2020, facility_closed_shutdown)
+  select(fac_id, monthyear.x, state.x, lga.x, fac_name.x, fac_type.x, fac_type_sub.x, 
+         reported_any_data_feb_2020, reported_any_data_mar_2020, reported_any_data_apr_2020, 
+         reported_any_data_may_2020, reported_any_data_jun_2020, facility_closed_shutdown)
 
 data_check %>% 
   group_by(state.x) %>% 
