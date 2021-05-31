@@ -799,11 +799,11 @@ PPMV
 
 ## 10. Grand Total of HIV Status of TB Cases
 
-<img src="outputs/img/README-unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+<img src="outputs/img/README-hiv-1.png" style="display: block; margin: auto;" />
 
 ## 16. Grand Total of Cases Notified (Clinical Facilities and Labs Only)
 
-<img src="outputs/img/README-unnamed-chunk-12-1.png" style="display: block; margin: auto;" /><img src="outputs/img/README-unnamed-chunk-12-2.png" style="display: block; margin: auto;" />
+<img src="outputs/img/README-notif-1.png" style="display: block; margin: auto;" /><img src="outputs/img/README-notif-2.png" style="display: block; margin: auto;" />
 
 # Results from the December 2020 COVID Survey
 
