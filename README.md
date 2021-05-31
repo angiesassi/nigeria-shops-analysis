@@ -3,23 +3,6 @@ Nigeria Shops Analysis
 
 ## Load data
 
-``` r
-data <- read_csv("C:/Users/angie/OneDrive - McGill University/Pai Team/COVET/Nigeria program data/SHOPS Plus Progam Data 2018-2021.csv", guess_max = 84070)
-
-# Transform fields, filter to just include 2018-2020 data
-
-data$monthyear <- mdy(data$monthyear)
-data <- data %>% 
-  filter(monthyear <= "2020-12-31") 
-data$fac_type_sub[data$fac_type == "Hospital"] <- "Hospital"
-data$fac_type[data$fac_type_sub == "Hospital"] <- "Clinical Faclity"
-data$fac_type[data$fac_type == "Clinical Faclity"] <- "Clinical Facility"
-
-length(unique(data$monthyear))
-```
-
-    ## [1] 32
-
 There are 32 unique months of data in this dataset. We can check to make
 sure no facility id’s have greater or fewer than 32 observations.
 
@@ -66,21 +49,151 @@ with a `fac_id` of 2103.
 Rather than remove the observations for this facility, we can relabel
 the facility with ID = 2102 and type = Lab to be facility \#2103.
 
-``` r
-data$fac_id[data$fac_id==2102 & data$fac_type=="Lab"] <- 2103
-
-data %>% 
-  group_by(fac_id) %>% 
-  count() %>% 
-  filter(n != 32)
-```
-
     ## # A tibble: 0 x 2
     ## # Groups:   fac_id [0]
     ## # ... with 2 variables: fac_id <dbl>, n <int>
 
-There are no remaining facilities with more or less than 32
-observations, so our issue is fixed.
+<table>
+<caption>
+Table 1. Summary of Facilities in this Dataset by State and Type
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Facility Type
+</th>
+<th style="text-align:right;">
+Total Number of Facilities (N)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+217
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+28
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+35
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+804
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+472
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+195
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+140
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+511
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+1084
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+1318
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+2402
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Which variables apply to each facility type?
 
@@ -120,8 +233,8 @@ head(variables)
 write_csv(variables, file="./outputs/data/variables.csv")
 ```
 
-Step 2: Cross-check with the codebook shared by our partners in Nigeria
-(formatting done in Excel).
+*Step 2:* Cross-check with the codebook shared by our partners in
+Nigeria (formatting done in Excel).
 
 ``` r
 codebook <- read_csv("C:/Users/angie/OneDrive - McGill University/Pai Team/COVET/Nigeria program data/TB Nigeria_Program Data_Codebook.csv")
@@ -188,10 +301,7 @@ data where there should not be any.
     shouldn’t, classify that variable as valid for that facility type.
     -   if `actual_data` = TRUE & `codebook` = FALSE, re-label as TRUE
 
-``` r
-mismatches %>% 
-  filter(actual_data==TRUE)
-```
+<!-- -->
 
     ## # A tibble: 18 x 4
     ##    var_name                        fac_type actual_data codebook
@@ -232,9 +342,10 @@ codebook_new <- crosscheck %>%
 codebook_new$`Clinical Facility`[codebook_new$var_name %in% to_be_labeled_true] <- TRUE
 ```
 
-## Exploring gap in Kano data
+## Exploring Gap in Kano Data
 
-Using a custom function (`datacheck`), for each of the 32 months I will:
+Using a custom function (`datacheck`), for each of the 32 months in this
+dataset I will:
 
 -   Select the facility identifiers (`fac_id`, `state`, `lga`,
     `fac_name`, `fac_type`, and `fac_type_sub`) and all the routine
@@ -305,50 +416,6 @@ data_check <- check_list[["2018-05-01"]][c(1,3:7,9)] %>%
   left_join(check_list[["2020-11-01"]][c(1,9)], by = "fac_id") %>% 
   left_join(check_list[["2020-12-01"]][c(1,9)], by = "fac_id") 
 
-str(data_check)
-```
-
-    ## tibble [2,402 x 38] (S3: tbl_df/tbl/data.frame)
-    ##  $ fac_id                  : num [1:2402] 1 2 3 4 5 6 7 8 9 10 ...
-    ##  $ state                   : chr [1:2402] "Kano" "Kano" "Kano" "Kano" ...
-    ##  $ lga                     : chr [1:2402] "Bebeji" "Bebeji" "Bebeji" "Bebeji" ...
-    ##  $ fac_name                : chr [1:2402] "Abu Muhammad Medicine Store" "Aifak  Chemist" "Alfijir Nursing Home" "Al-Yusrai (Taimako Clinic and Maternity)" ...
-    ##  $ fac_type                : chr [1:2402] "PPMV" "PPMV" "Clinical Facility" "Clinical Facility" ...
-    ##  $ fac_type_sub            : chr [1:2402] "." "." "." "." ...
-    ##  $ reported_data_2018-05-01: logi [1:2402] FALSE FALSE FALSE FALSE FALSE FALSE ...
-    ##  $ reported_data_2018-06-01: logi [1:2402] FALSE FALSE FALSE FALSE FALSE FALSE ...
-    ##  $ reported_data_2018-07-01: logi [1:2402] FALSE FALSE FALSE FALSE FALSE FALSE ...
-    ##  $ reported_data_2018-08-01: logi [1:2402] FALSE FALSE FALSE FALSE FALSE FALSE ...
-    ##  $ reported_data_2018-09-01: logi [1:2402] FALSE FALSE FALSE FALSE FALSE FALSE ...
-    ##  $ reported_data_2018-10-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2018-11-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2018-12-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-01-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-02-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-03-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-04-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-05-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-06-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-07-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-08-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-09-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-10-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-11-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2019-12-01: logi [1:2402] FALSE FALSE FALSE TRUE FALSE FALSE ...
-    ##  $ reported_data_2020-01-01: logi [1:2402] FALSE FALSE TRUE TRUE TRUE FALSE ...
-    ##  $ reported_data_2020-02-01: logi [1:2402] FALSE TRUE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-03-01: logi [1:2402] FALSE TRUE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-04-01: logi [1:2402] FALSE TRUE FALSE FALSE FALSE TRUE ...
-    ##  $ reported_data_2020-05-01: logi [1:2402] FALSE TRUE FALSE FALSE FALSE TRUE ...
-    ##  $ reported_data_2020-06-01: logi [1:2402] FALSE TRUE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-07-01: logi [1:2402] TRUE TRUE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-08-01: logi [1:2402] TRUE TRUE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-09-01: logi [1:2402] TRUE TRUE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-10-01: logi [1:2402] TRUE FALSE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-11-01: logi [1:2402] TRUE FALSE TRUE TRUE TRUE TRUE ...
-    ##  $ reported_data_2020-12-01: logi [1:2402] TRUE FALSE TRUE TRUE TRUE TRUE ...
-
-``` r
 data_check_summary_table <- data_check %>% 
   group_by(state, fac_type) %>% 
   summarize_if(is.logical, sum) 
@@ -357,22 +424,6 @@ data_check_summary <- data_check_summary_table %>%
   pivot_longer(cols = c(3:34), names_to = "date", names_pattern = "reported_data_(.*)", values_to = "num_reported")
 
 data_check_summary$date <- as.Date(data_check_summary$date)
-```
-
-``` r
-ggplot(data_check_summary, aes(x=as.Date(date), y=num_reported)) +
-  geom_line(group=1, size = 1, color = "steelblue") +
-  facet_wrap(~fac_type+state, ncol=2, 
-             scales = "free", strip.position = "top", 
-             labeller = label_wrap_gen(multi_line=FALSE)) +
-  scale_x_date(breaks = function(x) seq.Date(from = as.Date("2018-01-01"), 
-                                      to = as.Date("2021-01-01"), 
-                                      by = "6 months"), 
-               minor_breaks = "1 month", date_labels = "%b %y") +
-  labs(title = "Facilities Reporting Over Time", 
-       caption = "Recreation of Fig 8 @ https://github.com/bbdaniels/nigeria-shops-analysis/tree/main/outputs", 
-       x = NULL, y = NULL) +
-  theme(axis.ticks.x = element_line())
 ```
 
 <img src="outputs/img/README-reporting-1.png" style="display: block; margin: auto;" />
@@ -388,214 +439,1521 @@ facilities in each state and facility type that reported being shutdown
 at least once during the COVID lockdown period in Nigeria (April/May
 2020).
 
-``` r
-check_dec_2020 <- data %>% 
-  filter(monthyear == "2020-12-01") %>% 
-  select(state, fac_type, facility_closed_shutdown) %>% 
-  group_by(state, fac_type) %>% 
-  summarize(facility_closed_shutdown = sum(facility_closed_shutdown, na.rm = TRUE))
-
-data_check_summary_table <- data_check_summary_table %>% 
-  left_join(check_dec_2020, by=c("state", "fac_type"))
-
-knitr::kable(data_check_summary_table[,c(1,2,23:31,35)], 
-             col.names = c("State", "Facility Type", 
-                           "Number of Facilities that Reported Any Data in Jan 2020", 
-                           "Feb 2020", "Mar 2020", "Apr 2020", 
-                           "May 2020", "Jun 2020", "Jul 2020", 
-                           "Aug 2020", "Sep 2020", 
-                           "Number of facilities Reporting Having Shut Down during COVID"))
-```
-
-| State | Facility Type      | Number of Facilities that Reported Any Data in Jan 2020 | Feb 2020 | Mar 2020 | Apr 2020 | May 2020 | Jun 2020 | Jul 2020 | Aug 2020 | Sep 2020 | Number of facilities Reporting Having Shut Down during COVID |
-|:------|:-------------------|--------------------------------------------------------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|-------------------------------------------------------------:|
-| Kano  | Clinical Facility  |                                                     205 |      205 |      205 |        1 |        1 |      212 |      214 |      199 |      198 |                                                           25 |
-| Kano  | Community Pharmacy |                                                      26 |       26 |       26 |        0 |        0 |       26 |       26 |       18 |       18 |                                                            4 |
-| Kano  | Lab                |                                                      30 |       30 |       30 |       30 |       30 |       30 |       30 |       25 |       25 |                                                            2 |
-| Kano  | PPMV               |                                                     461 |      549 |      561 |      558 |      563 |      551 |      563 |      615 |      634 |                                                           46 |
-| Lagos | Clinical Facility  |                                                     433 |      433 |      433 |      433 |      432 |      433 |      433 |      439 |      439 |                                                           19 |
-| Lagos | Community Pharmacy |                                                     138 |      138 |      137 |      133 |      133 |      133 |      133 |      133 |      133 |                                                           10 |
-| Lagos | Lab                |                                                     118 |      118 |      118 |      118 |      117 |      118 |      116 |      117 |      117 |                                                           18 |
-| Lagos | PPMV               |                                                     404 |      403 |      403 |      399 |      399 |      399 |      399 |      398 |      390 |                                                           55 |
+<table>
+<caption>
+Table 2. Number of Facilities Reporting Over Time by State and Type
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Facility Type
+</th>
+<th style="text-align:right;">
+Number of Facilities that Reported Any Data in Jan 2020
+</th>
+<th style="text-align:right;">
+Feb 2020
+</th>
+<th style="text-align:right;">
+Mar 2020
+</th>
+<th style="text-align:right;">
+Apr 2020
+</th>
+<th style="text-align:right;">
+May 2020
+</th>
+<th style="text-align:right;">
+Jun 2020
+</th>
+<th style="text-align:right;">
+Jul 2020
+</th>
+<th style="text-align:right;">
+Aug 2020
+</th>
+<th style="text-align:right;">
+Sep 2020
+</th>
+<th style="text-align:right;">
+Number of facilities Reporting Having Shut Down during COVID
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+205
+</td>
+<td style="text-align:right;">
+205
+</td>
+<td style="text-align:right;">
+205
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+212
+</td>
+<td style="text-align:right;">
+214
+</td>
+<td style="text-align:right;">
+199
+</td>
+<td style="text-align:right;">
+198
+</td>
+<td style="text-align:right;">
+25
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+461
+</td>
+<td style="text-align:right;">
+549
+</td>
+<td style="text-align:right;">
+561
+</td>
+<td style="text-align:right;">
+558
+</td>
+<td style="text-align:right;">
+563
+</td>
+<td style="text-align:right;">
+551
+</td>
+<td style="text-align:right;">
+563
+</td>
+<td style="text-align:right;">
+615
+</td>
+<td style="text-align:right;">
+634
+</td>
+<td style="text-align:right;">
+46
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+432
+</td>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+433
+</td>
+<td style="text-align:right;">
+439
+</td>
+<td style="text-align:right;">
+439
+</td>
+<td style="text-align:right;">
+19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+138
+</td>
+<td style="text-align:right;">
+138
+</td>
+<td style="text-align:right;">
+137
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+133
+</td>
+<td style="text-align:right;">
+10
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+118
+</td>
+<td style="text-align:right;">
+118
+</td>
+<td style="text-align:right;">
+118
+</td>
+<td style="text-align:right;">
+118
+</td>
+<td style="text-align:right;">
+117
+</td>
+<td style="text-align:right;">
+118
+</td>
+<td style="text-align:right;">
+116
+</td>
+<td style="text-align:right;">
+117
+</td>
+<td style="text-align:right;">
+117
+</td>
+<td style="text-align:right;">
+18
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+404
+</td>
+<td style="text-align:right;">
+403
+</td>
+<td style="text-align:right;">
+403
+</td>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+399
+</td>
+<td style="text-align:right;">
+398
+</td>
+<td style="text-align:right;">
+390
+</td>
+<td style="text-align:right;">
+55
+</td>
+</tr>
+</tbody>
+</table>
 
 # Additional Variable Analysis
 
 ## 9a. Sum Total of PTB Cases Bacteriologically Diagnosed and 9b. Sum Total of PTB Cases Clinically Diagnosed (Applies to Clinical facilities only)
 
-``` r
-diag_ptb <- data %>% 
-  select(fac_id, 
-         monthyear, 
-         state, 
-         lga, 
-         fac_name, 
-         fac_type, 
-         fac_type_sub, 
-         diagbacter_ptb_total, 
-         diagclinic_ptb_total) %>% 
-  filter(fac_type == "Clinical Facility") %>% 
-  pivot_longer(cols = starts_with("diag"), 
-               names_to = "diag_type", 
-               names_prefix = "diag", 
-               values_to = "pts")
-
-diag_ptb$diag_type <- factor(diag_ptb$diag_type, 
-                             labels=c("Bacteriological", "Clinical"))
-
-ggplot(diag_ptb, aes(x=monthyear, y=pts)) + 
-  geom_col(aes(fill = diag_type)) + 
-  facet_wrap(~state) + 
-  labs(x="Month", 
-       y="Number of Patients Diagnosed", 
-       title="Pulmonary TB Cases Bacteriologically and Clinically Diagnosed per month by state", 
-       caption = "Data collected among clinical facilities only", 
-       fill = "Diagnosis Type") + 
-  scale_x_date(date_breaks = "6 months", 
-               date_labels = "%b %y", 
-               limits=as.Date(c("2018-09-01", "2021-01-01"))) +
-  theme(plot.caption = element_text(hjust=0), 
-        strip.text = element_text(face = "bold"))
-```
-
 <img src="outputs/img/README-diagptb-1.png" style="display: block; margin: auto;" />
 
 ## 10. Grand Total of HIV Status of TB Cases
 
-``` r
-hiv <- data %>%
-  select(fac_id, 
-         monthyear, 
-         state, 
-         lga, 
-         fac_name, 
-         fac_type, 
-         fac_type_sub, 
-         cases_hivpos_total, 
-         cases_hivneg_total, 
-         cases_hivdk_total, 
-         cases_hivstatus_total) %>% 
-  filter(fac_type == "Lab") %>% 
-  pivot_longer(cols = c(cases_hivpos_total, 
-                        cases_hivneg_total, 
-                        cases_hivdk_total), 
-               names_to = "status", 
-               names_prefix = "cases_hiv", 
-               values_to = "pts")
-```
+<img src="outputs/img/README-unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+
+## 16. Grand Total of Cases Notified (Clinical Facilities and Labs Only)
+
+<img src="outputs/img/README-unnamed-chunk-12-1.png" style="display: block; margin: auto;" /><img src="outputs/img/README-unnamed-chunk-12-2.png" style="display: block; margin: auto;" />
+
+# Results from the December 2020 COVID Survey
+
+## General survey information
+
+Information on 1598 facilities out of 2402 total facilities was included
+in the responses to the COVID questionnaire.
+
+<table>
+<caption>
+Table 3. Summary of Response to Dec 2020 COVID Survey
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Facility Type
+</th>
+<th style="text-align:right;">
+Number of Facilities Responding to COVID Survey
+</th>
+<th style="text-align:right;">
+Total Number of Facilities
+</th>
+<th style="text-align:right;">
+Percent Response (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+151
+</td>
+<td style="text-align:right;">
+217
+</td>
+<td style="text-align:right;">
+69.59
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:right;">
+60.71
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+35
+</td>
+<td style="text-align:right;">
+57.14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+550
+</td>
+<td style="text-align:right;">
+804
+</td>
+<td style="text-align:right;">
+68.41
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+395
+</td>
+<td style="text-align:right;">
+472
+</td>
+<td style="text-align:right;">
+83.69
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+195
+</td>
+<td style="text-align:right;">
+46.67
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+108
+</td>
+<td style="text-align:right;">
+140
+</td>
+<td style="text-align:right;">
+77.14
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:right;">
+511
+</td>
+<td style="text-align:right;">
+52.05
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+738
+</td>
+<td style="text-align:right;">
+1084
+</td>
+<td style="text-align:right;">
+68.08
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+860
+</td>
+<td style="text-align:right;">
+1318
+</td>
+<td style="text-align:right;">
+65.25
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+1598
+</td>
+<td style="text-align:right;">
+2402
+</td>
+<td style="text-align:right;">
+66.53
+</td>
+</tr>
+</tbody>
+</table>
+
+## Current Status of Facilities
+
+<table>
+<caption>
+Table 4. Percent of Facilities Open and Accepting Clients at time of
+Survey (Dec 2020)
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Facility Type
+</th>
+<th style="text-align:right;">
+Number of Open Facilities
+</th>
+<th style="text-align:right;">
+Total N of Responding Facilities
+</th>
+<th style="text-align:right;">
+Percent Currently Open (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+148
+</td>
+<td style="text-align:right;">
+151
+</td>
+<td style="text-align:right;">
+98.01
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+100.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+85.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+502
+</td>
+<td style="text-align:right;">
+550
+</td>
+<td style="text-align:right;">
+91.27
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+389
+</td>
+<td style="text-align:right;">
+395
+</td>
+<td style="text-align:right;">
+98.48
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+96.70
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+108
+</td>
+<td style="text-align:right;">
+108
+</td>
+<td style="text-align:right;">
+100.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+248
+</td>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:right;">
+93.23
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+684
+</td>
+<td style="text-align:right;">
+738
+</td>
+<td style="text-align:right;">
+92.68
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+833
+</td>
+<td style="text-align:right;">
+860
+</td>
+<td style="text-align:right;">
+96.86
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+1517
+</td>
+<td style="text-align:right;">
+1598
+</td>
+<td style="text-align:right;">
+94.93
+</td>
+</tr>
+</tbody>
+</table>
+
+## Previous Status during Lockdown
+
+<table>
+<caption>
+Table 5. Summary of Facilities Reporting Having Closed During the COVID
+Lockdown (April-May 2020
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Facility Type
+</th>
+<th style="text-align:right;">
+Number of Facilities that Closed at least once during COVID lockdown
+</th>
+<th style="text-align:right;">
+Total N of Responding Facilities
+</th>
+<th style="text-align:right;">
+Percent Closed at least once during COVID lockdown (%)
+</th>
+<th style="text-align:right;">
+Mean Number of Times Each Facility Closed
+</th>
+<th style="text-align:right;">
+Std. Dev. of Number of Times Closed
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+25
+</td>
+<td style="text-align:right;">
+151
+</td>
+<td style="text-align:right;">
+16.56
+</td>
+<td style="text-align:right;">
+1.12
+</td>
+<td style="text-align:right;">
+0.33
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+23.53
+</td>
+<td style="text-align:right;">
+1.00
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+10.00
+</td>
+<td style="text-align:right;">
+1.00
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+46
+</td>
+<td style="text-align:right;">
+550
+</td>
+<td style="text-align:right;">
+8.36
+</td>
+<td style="text-align:right;">
+1.28
+</td>
+<td style="text-align:right;">
+1.34
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:right;">
+395
+</td>
+<td style="text-align:right;">
+4.81
+</td>
+<td style="text-align:right;">
+1.21
+</td>
+<td style="text-align:right;">
+0.42
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+10.99
+</td>
+<td style="text-align:right;">
+1.50
+</td>
+<td style="text-align:right;">
+0.97
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+18
+</td>
+<td style="text-align:right;">
+108
+</td>
+<td style="text-align:right;">
+16.67
+</td>
+<td style="text-align:right;">
+1.11
+</td>
+<td style="text-align:right;">
+0.32
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:right;">
+20.68
+</td>
+<td style="text-align:right;">
+1.29
+</td>
+<td style="text-align:right;">
+0.79
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+77
+</td>
+<td style="text-align:right;">
+738
+</td>
+<td style="text-align:right;">
+10.43
+</td>
+<td style="text-align:right;">
+1.21
+</td>
+<td style="text-align:right;">
+1.06
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+102
+</td>
+<td style="text-align:right;">
+860
+</td>
+<td style="text-align:right;">
+11.86
+</td>
+<td style="text-align:right;">
+1.26
+</td>
+<td style="text-align:right;">
+0.69
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+179
+</td>
+<td style="text-align:right;">
+1598
+</td>
+<td style="text-align:right;">
+11.20
+</td>
+<td style="text-align:right;">
+1.24
+</td>
+<td style="text-align:right;">
+1.06
+</td>
+</tr>
+</tbody>
+</table>
+
+## Has facility added incremental fees to cover PPE cost?
+
+<table>
+<caption>
+Table 6. Percent of Facilities That Increased Fees due to PPE Cost
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Facility Type
+</th>
+<th style="text-align:right;">
+Number of Facilities That Added PPE Fee
+</th>
+<th style="text-align:right;">
+Total N of Responding Facilities
+</th>
+<th style="text-align:right;">
+Percent of Facilities That Increased Fees due to PPE Cost (%)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+151
+</td>
+<td style="text-align:right;">
+11.26
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+17.65
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:right;">
+550
+</td>
+<td style="text-align:right;">
+4.91
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Clinical Facility
+</td>
+<td style="text-align:right;">
+77
+</td>
+<td style="text-align:right;">
+395
+</td>
+<td style="text-align:right;">
+19.49
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Community Pharmacy
+</td>
+<td style="text-align:right;">
+36
+</td>
+<td style="text-align:right;">
+91
+</td>
+<td style="text-align:right;">
+39.56
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+108
+</td>
+<td style="text-align:right;">
+13.89
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+PPMV
+</td>
+<td style="text-align:right;">
+57
+</td>
+<td style="text-align:right;">
+266
+</td>
+<td style="text-align:right;">
+21.43
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kano
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+738
+</td>
+<td style="text-align:right;">
+6.37
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Lagos
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+185
+</td>
+<td style="text-align:right;">
+860
+</td>
+<td style="text-align:right;">
+21.51
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:left;">
+Total
+</td>
+<td style="text-align:right;">
+232
+</td>
+<td style="text-align:right;">
+1598
+</td>
+<td style="text-align:right;">
+14.52
+</td>
+</tr>
+</tbody>
+</table>
+
+### In what ways has this facility passed PPE costs on clients/patients?
+
+`ppe_cost_bearing` was a multi-select question with the following
+options:
+
+The question represented by the variable `ppe_cost_bearing` asked: “In
+what ways has this facility passed PPE costs on clients/patients?”
+
+Answer options:
+
+| Variable                            | Answer                                                             | Type                            | Amount                         |
+|:------------------------------------|:-------------------------------------------------------------------|---------------------------------|--------------------------------|
+| ppe\_cost\_bearingadd\_separate\_pp | A. Adding a separate PPE fee on each client/patient’s bill         | addseparateppefee\_onbill\_type | addseparateppefee\_onbill\_amt |
+| ppe\_cost\_bearingincrease\_in\_con | B. Increasing consultation fees (for individual consultation fee)  | increaseconsultationfees\_type  | increaseconsultationfees\_amt  |
+| ppe\_cost\_bearingincrease\_in\_reg | C. Increasing registration/card fees (for individual registration) | increaseregistrationfees\_type  | increaseregistrationfees\_amt  |
+| ppe\_cost\_bearingincrease\_in\_lab | D. Increasing prices of labs, medicines, or other products sold    | increaselabsmed\_type           | increaselabsmed\_amt           |
+| ppe\_cost\_bearingincrease\_mentio  | E. Other (specify)                                                 | increasementionedothers\_type   | increasementionedothers\_amt   |
+| other\_ppe\_cost\_bearing           | Other: Specific                                                    | N/A                             | N/A                            |
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+answer
+</th>
+<th style="text-align:right;">
+Kano
+</th>
+<th style="text-align:right;">
+Kano\_perc
+</th>
+<th style="text-align:right;">
+Lagos
+</th>
+<th style="text-align:right;">
+Lagos\_perc
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+ppe\_cost\_bearingadd\_separate\_pp
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+29.79
+</td>
+<td style="text-align:right;">
+39
+</td>
+<td style="text-align:right;">
+21.08
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ppe\_cost\_bearingincrease\_in\_con
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+17.02
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:right;">
+9.19
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ppe\_cost\_bearingincrease\_in\_reg
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+10.64
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:right;">
+8.11
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ppe\_cost\_bearingincrease\_in\_lab
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:right;">
+55.32
+</td>
+<td style="text-align:right;">
+135
+</td>
+<td style="text-align:right;">
+72.97
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ppe\_cost\_bearingincrease\_mentio
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+10.64
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:right;">
+11.89
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Total Facilities
+</td>
+<td style="text-align:right;">
+47
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+185
+</td>
+<td style="text-align:right;">
+NA
+</td>
+</tr>
+</tbody>
+</table>
+
+    ## # A tibble: 14 x 3
+    ## # Groups:   answer [14]
+    ##    answer      n    perc
+    ##    <fct>   <int>   <dbl>
+    ##  1 D         126 0.543  
+    ##  2 A          28 0.121  
+    ##  3 E          24 0.103  
+    ##  4 A D        18 0.0776 
+    ##  5 B          10 0.0431 
+    ##  6 C           6 0.0259 
+    ##  7 B C D       5 0.0216 
+    ##  8 A B C D     4 0.0172 
+    ##  9 B D         3 0.0129 
+    ## 10 A B C       2 0.00862
+    ## 11 C D         2 0.00862
+    ## 12 D E         2 0.00862
+    ## 13 A D E       1 0.00431
+    ## 14 B C         1 0.00431
+
+## COVID\_impact\_on\_tb\_service
+
+# Regressions
+
+Cascade = Total OPD, Total Screened, Total Diagnosed, Total Treated,
+Total Completed/Cured - Comparing April 2019 and April 2020 or Q2 2019
+vs. Q2 2020
+
+    - outcome_cured_total
+    - outcome_fail_total
+    - outcome_ltfu_total
+    - outcome_died_total
+    - outcome_completed_total
+    - outcome_transferout_total
+    - outcome_transferin_total
+    - outcome_total
+    - notifbacter_ptb_total
+    - notifclinic_ptb_total
+    - contactscreen_index_total
+    - contactscreen_household_total
+    - contactscreen_diagnosed_total
+    - contactscreen_ontreat_ds_total
+    - contactscreen_ontreat_dr_total
+    - contactscreen_starttrt_total
+
+Costs 2019 vs. 2020
+
+# Additional Variables of Interest
+
+## CAT 1 Kits and Mini Kits
+
+## hivpos\_refforcare\_total
+
+## cases\_txsupporter\_total
+
+## open\_date1
 
 ## Telemedicine Analysis
 
-``` r
-#number of facilities using telemedicine
-sum(data$telemedicine_service, na.rm=TRUE)
-```
-
     ## [1] 186
 
-``` r
-#number of facilities using telemedicine for TB services
-sum(data$telemedicine_for_tb_service, na.rm=TRUE)
-```
-
     ## [1] 65
-
-``` r
-data_telem <- data %>% 
-  filter(telemedicine_service == 1)
-
-data_telem <- data_telem[,-c(10:593)]
-
-data_telem$no_tb_presumptive_using_telem[is.na(data_telem$no_tb_presumptive_using_telem)] <- 0
-
-data_telem$no_tb_presumptive_tested_telem[is.na(data_telem$no_tb_presumptive_tested_telem)] <- 0
-
-data_telem$no_tb_diagnoscouns_using_telem[is.na(data_telem$no_tb_diagnoscouns_using_telem)] <- 0
-
-data_telem$no_tb_trtmonitoring_using_telem[is.na(data_telem$no_tb_trtmonitoring_using_telem)] <- 0
-
-data_telem <- data_telem %>% 
-  mutate(telemedicine_for_tb_type = 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening == 1 &
-                    tb_diagnosedcounsel_using_telem != 1 &
-                    tb_trtmonitoring_using_telem != 1, 
-                  "Screening Only",
-           ifelse(telemedicine_for_tb_service == 1 &
-                           telemedicine_for_tb_screening != 1 &
-                           tb_diagnosedcounsel_using_telem == 1 &
-                           tb_trtmonitoring_using_telem != 1, 
-                  "Diagnosis/Counseling Only", 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening != 1 &
-                    tb_diagnosedcounsel_using_telem != 1 &
-                    tb_trtmonitoring_using_telem == 1, 
-                  "Monitoring Only", 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening == 1 &
-                    tb_diagnosedcounsel_using_telem == 1 & 
-                    tb_trtmonitoring_using_telem != 1, 
-                  "Screening & Diagnosis", 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening != 1 &
-                    tb_diagnosedcounsel_using_telem == 1 &
-                    tb_trtmonitoring_using_telem == 1, 
-                  "Diagnosis & Monitoring", 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening == 1 &
-                    tb_diagnosedcounsel_using_telem != 1 &
-                    tb_trtmonitoring_using_telem == 1, 
-                  "Screening & Monitoring", 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening == 1 &
-                    tb_diagnosedcounsel_using_telem == 1 &
-                    tb_trtmonitoring_using_telem == 1, 
-                  "Screening, Diagnosis, & Monitoring", 
-           ifelse(telemedicine_for_tb_service == 1 & 
-                    telemedicine_for_tb_screening != 1 &
-                    tb_diagnosedcounsel_using_telem != 1 &
-                    tb_trtmonitoring_using_telem != 1, 
-                  "Unspecified", 
-                  NA)))))))))
-
-data_telem$telemedicine_for_tb_type <- factor(data_telem$telemedicine_for_tb_type,
-                                              levels = c("Screening Only",
-                                                         "Diagnosis/Counseling Only", 
-                                                         "Monitoring Only",
-                                                         "Screening & Diagnosis",
-                                                         "Diagnosis & Monitoring",
-                                                         "Screening & Monitoring",
-                                                         "Screening, Diagnosis, & Monitoring", 
-                                                         "Unspecified", NA))
-
-
-data_telem$no_patients = data_telem$no_tb_presumptive_tested_telem + 
-  data_telem$no_tb_diagnoscouns_using_telem + 
-  data_telem$no_tb_trtmonitoring_using_telem
-
-data_telem$no_patients2 = data_telem$no_tb_presumptive_using_telem + 
-  data_telem$no_tb_presumptive_tested_telem + 
-  data_telem$no_tb_diagnoscouns_using_telem + 
-  data_telem$no_tb_trtmonitoring_using_telem
-
-telem_summary <- data_telem %>% 
-  group_by(state) %>% 
-  summarize("Facilities offering Telemedicine" = sum(telemedicine_service), 
-            "Facilities offering Telemedicine for TB" = sum(telemedicine_for_tb_service), 
-            "Facilities offering TB Screening via Telemedicine" = sum(telemedicine_for_tb_screening, na.rm=TRUE), 
-            "Facilities offering TB Diagnosis/Counseling via Telemedicine" = sum(tb_diagnosedcounsel_using_telem, na.rm=TRUE), 
-            "Facilities offering TB Treatment Monitoring via Telemedicine" = sum(tb_trtmonitoring_using_telem, na.rm=TRUE),
-            "TB Patients using Telemedicine (any kind)" = sum(no_tb_presumptive_using_telem),
-            "Patients Tested for TB using Telemedicine" = sum(no_tb_presumptive_tested_telem),
-            "Patients Diagnosed/Counseled for TB using Telemedicine" = sum(no_tb_diagnoscouns_using_telem),
-            "Patients Monitored for TB Treatment using Telemedicine" = sum(no_tb_trtmonitoring_using_telem))
-
-telem_summary <- data.frame(t(telem_summary)[-1,])
-names(telem_summary) = c("Kano", "Lagos")
-telem_summary$Kano = as.numeric(telem_summary$Kano)
-telem_summary$Lagos = as.numeric(telem_summary$Lagos)
-
-telem_summary
-```
 
     ##                                                              Kano Lagos
     ## Facilities offering Telemedicine                               37   149
@@ -607,22 +1965,5 @@ telem_summary
     ## Patients Tested for TB using Telemedicine                       8    33
     ## Patients Diagnosed/Counseled for TB using Telemedicine          7    44
     ## Patients Monitored for TB Treatment using Telemedicine         15   108
-
-``` r
-ggplot(filter(data_telem, telemedicine_for_tb_service == 1),
-       aes(x=telemedicine_for_tb_type, fill = telemedicine_for_tb_type))+
-  geom_bar()+
-  geom_text(stat='count', aes(label=..count..), vjust=-0.5, size = 3)+
-  ylim(c(0,20))+
-  facet_wrap(~state)+
-  theme_bw()+
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
-        legend.position = "blank", 
-        plot.margin = unit(c(0.5,0.5,1,1), "cm"))+
-  labs(title = "Facilities offering each type of Telemedicine Services for TB", 
-       y = "Count of Facilities", 
-       x = NULL, 
-       fill = "Telemedicine Services for TB")
-```
 
 <img src="outputs/img/README-telemedicine5-1.png" style="display: block; margin: auto;" />
