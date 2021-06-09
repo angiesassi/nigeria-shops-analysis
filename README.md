@@ -1747,12 +1747,12 @@ Total
 </tr>
 </tbody>
 </table>
-<div id="ovabjbkehs" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ppprseyrlp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#ovabjbkehs .gt_table {
+#ppprseyrlp .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1777,7 +1777,7 @@ Total
   border-left-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_heading {
+#ppprseyrlp .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1789,7 +1789,7 @@ Total
   border-right-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_title {
+#ppprseyrlp .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1799,7 +1799,7 @@ Total
   border-bottom-width: 0;
 }
 
-#ovabjbkehs .gt_subtitle {
+#ppprseyrlp .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1809,13 +1809,13 @@ Total
   border-top-width: 0;
 }
 
-#ovabjbkehs .gt_bottom_border {
+#ppprseyrlp .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_col_headings {
+#ppprseyrlp .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1830,7 +1830,7 @@ Total
   border-right-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_col_heading {
+#ppprseyrlp .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1850,7 +1850,7 @@ Total
   overflow-x: hidden;
 }
 
-#ovabjbkehs .gt_column_spanner_outer {
+#ppprseyrlp .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1862,15 +1862,15 @@ Total
   padding-right: 4px;
 }
 
-#ovabjbkehs .gt_column_spanner_outer:first-child {
+#ppprseyrlp .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ovabjbkehs .gt_column_spanner_outer:last-child {
+#ppprseyrlp .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ovabjbkehs .gt_column_spanner {
+#ppprseyrlp .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1882,7 +1882,7 @@ Total
   width: 100%;
 }
 
-#ovabjbkehs .gt_group_heading {
+#ppprseyrlp .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1904,7 +1904,7 @@ Total
   vertical-align: middle;
 }
 
-#ovabjbkehs .gt_empty_group_heading {
+#ppprseyrlp .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1919,15 +1919,15 @@ Total
   vertical-align: middle;
 }
 
-#ovabjbkehs .gt_from_md > :first-child {
+#ppprseyrlp .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ovabjbkehs .gt_from_md > :last-child {
+#ppprseyrlp .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ovabjbkehs .gt_row {
+#ppprseyrlp .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1946,7 +1946,7 @@ Total
   overflow-x: hidden;
 }
 
-#ovabjbkehs .gt_stub {
+#ppprseyrlp .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1958,7 +1958,7 @@ Total
   padding-left: 12px;
 }
 
-#ovabjbkehs .gt_summary_row {
+#ppprseyrlp .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1968,7 +1968,7 @@ Total
   padding-right: 5px;
 }
 
-#ovabjbkehs .gt_first_summary_row {
+#ppprseyrlp .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1978,7 +1978,7 @@ Total
   border-top-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_grand_summary_row {
+#ppprseyrlp .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1988,7 +1988,7 @@ Total
   padding-right: 5px;
 }
 
-#ovabjbkehs .gt_first_grand_summary_row {
+#ppprseyrlp .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1998,11 +1998,11 @@ Total
   border-top-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_striped {
+#ppprseyrlp .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ovabjbkehs .gt_table_body {
+#ppprseyrlp .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2011,7 +2011,7 @@ Total
   border-bottom-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_footnotes {
+#ppprseyrlp .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2025,13 +2025,13 @@ Total
   border-right-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_footnote {
+#ppprseyrlp .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#ovabjbkehs .gt_sourcenotes {
+#ppprseyrlp .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2045,41 +2045,1663 @@ Total
   border-right-color: #D3D3D3;
 }
 
-#ovabjbkehs .gt_sourcenote {
+#ppprseyrlp .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#ovabjbkehs .gt_left {
+#ppprseyrlp .gt_left {
   text-align: left;
 }
 
-#ovabjbkehs .gt_center {
+#ppprseyrlp .gt_center {
   text-align: center;
 }
 
-#ovabjbkehs .gt_right {
+#ppprseyrlp .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ovabjbkehs .gt_font_normal {
+#ppprseyrlp .gt_font_normal {
   font-weight: normal;
 }
 
-#ovabjbkehs .gt_font_bold {
+#ppprseyrlp .gt_font_bold {
   font-weight: bold;
 }
 
-#ovabjbkehs .gt_font_italic {
+#ppprseyrlp .gt_font_italic {
   font-style: italic;
 }
 
-#ovabjbkehs .gt_super {
+#ppprseyrlp .gt_super {
   font-size: 65%;
 }
 
-#ovabjbkehs .gt_footnote_marks {
+#ppprseyrlp .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Kano</strong>, N = 738<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lagos</strong>, N = 860<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">facility_incrmnt_fees_due_ppe</td>
+<td class="gt_row gt_center">47 (6.4%)</td>
+<td class="gt_row gt_center">185 (22%)</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="4">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          n (%)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Pearson's Chi-squared test
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+<div id="koqhmptgdj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#koqhmptgdj .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#koqhmptgdj .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#koqhmptgdj .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#koqhmptgdj .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#koqhmptgdj .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#koqhmptgdj .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#koqhmptgdj .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#koqhmptgdj .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#koqhmptgdj .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#koqhmptgdj .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#koqhmptgdj .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#koqhmptgdj .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#koqhmptgdj .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#koqhmptgdj .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#koqhmptgdj .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#koqhmptgdj .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#koqhmptgdj .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#koqhmptgdj .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#koqhmptgdj .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#koqhmptgdj .gt_left {
+  text-align: left;
+}
+
+#koqhmptgdj .gt_center {
+  text-align: center;
+}
+
+#koqhmptgdj .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#koqhmptgdj .gt_font_normal {
+  font-weight: normal;
+}
+
+#koqhmptgdj .gt_font_bold {
+  font-weight: bold;
+}
+
+#koqhmptgdj .gt_font_italic {
+  font-style: italic;
+}
+
+#koqhmptgdj .gt_super {
+  font-size: 65%;
+}
+
+#koqhmptgdj .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="5">
+        <span class="gt_column_spanner"><strong>Kano State</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="5">
+        <span class="gt_column_spanner"><strong>Lagos State</strong></span>
+      </th>
+    </tr>
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Clinical Facility</strong>, N = 151<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Community Pharmacy</strong>, N = 17<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lab</strong>, N = 20<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>PPMV</strong>, N = 550<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Clinical Facility</strong>, N = 395<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Community Pharmacy</strong>, N = 91<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lab</strong>, N = 108<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>PPMV</strong>, N = 266<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">3</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">facility_incrmnt_fees_due_ppe</td>
+<td class="gt_row gt_center">17 (11%)</td>
+<td class="gt_row gt_center">3 (18%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">27 (4.9%)</td>
+<td class="gt_row gt_center">0.006</td>
+<td class="gt_row gt_center">77 (19%)</td>
+<td class="gt_row gt_center">36 (40%)</td>
+<td class="gt_row gt_center">15 (14%)</td>
+<td class="gt_row gt_center">57 (21%)</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="11">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          n (%)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Fisher's exact test
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>3</em>
+          </sup>
+           
+          Pearson's Chi-squared test
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+<div id="hxqxiytrmt" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#hxqxiytrmt .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#hxqxiytrmt .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#hxqxiytrmt .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#hxqxiytrmt .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hxqxiytrmt .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#hxqxiytrmt .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#hxqxiytrmt .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#hxqxiytrmt .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hxqxiytrmt .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hxqxiytrmt .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#hxqxiytrmt .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#hxqxiytrmt .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#hxqxiytrmt .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#hxqxiytrmt .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hxqxiytrmt .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hxqxiytrmt .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#hxqxiytrmt .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hxqxiytrmt .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hxqxiytrmt .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hxqxiytrmt .gt_left {
+  text-align: left;
+}
+
+#hxqxiytrmt .gt_center {
+  text-align: center;
+}
+
+#hxqxiytrmt .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#hxqxiytrmt .gt_font_normal {
+  font-weight: normal;
+}
+
+#hxqxiytrmt .gt_font_bold {
+  font-weight: bold;
+}
+
+#hxqxiytrmt .gt_font_italic {
+  font-style: italic;
+}
+
+#hxqxiytrmt .gt_super {
+  font-size: 65%;
+}
+
+#hxqxiytrmt .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Kano</strong>, N = 47<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lagos</strong>, N = 185<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">ppe_cost_bearingadd_separate_pp</td>
+<td class="gt_row gt_center">14 (30%)</td>
+<td class="gt_row gt_center">39 (21%)</td>
+<td class="gt_row gt_center">0.2</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_in_con</td>
+<td class="gt_row gt_center">8 (17%)</td>
+<td class="gt_row gt_center">17 (9.2%)</td>
+<td class="gt_row gt_center">0.12</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_in_reg</td>
+<td class="gt_row gt_center">5 (11%)</td>
+<td class="gt_row gt_center">15 (8.1%)</td>
+<td class="gt_row gt_center">0.6</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_in_lab</td>
+<td class="gt_row gt_center">26 (55%)</td>
+<td class="gt_row gt_center">135 (73%)</td>
+<td class="gt_row gt_center">0.019</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_mentio</td>
+<td class="gt_row gt_center">5 (11%)</td>
+<td class="gt_row gt_center">22 (12%)</td>
+<td class="gt_row gt_center">0.8</td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="4">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          n (%)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Pearson's Chi-squared test; Fisher's exact test
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+<div id="hetuguaaqw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#hetuguaaqw .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#hetuguaaqw .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#hetuguaaqw .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#hetuguaaqw .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hetuguaaqw .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#hetuguaaqw .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#hetuguaaqw .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#hetuguaaqw .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hetuguaaqw .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hetuguaaqw .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#hetuguaaqw .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#hetuguaaqw .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#hetuguaaqw .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#hetuguaaqw .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hetuguaaqw .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hetuguaaqw .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#hetuguaaqw .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hetuguaaqw .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hetuguaaqw .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#hetuguaaqw .gt_left {
+  text-align: left;
+}
+
+#hetuguaaqw .gt_center {
+  text-align: center;
+}
+
+#hetuguaaqw .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#hetuguaaqw .gt_font_normal {
+  font-weight: normal;
+}
+
+#hetuguaaqw .gt_font_bold {
+  font-weight: bold;
+}
+
+#hetuguaaqw .gt_font_italic {
+  font-style: italic;
+}
+
+#hetuguaaqw .gt_super {
+  font-size: 65%;
+}
+
+#hetuguaaqw .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>Kano State</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="5">
+        <span class="gt_column_spanner"><strong>Lagos State</strong></span>
+      </th>
+    </tr>
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Clinical Facility</strong>, N = 17<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Community Pharmacy</strong>, N = 3<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>PPMV</strong>, N = 27<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Clinical Facility</strong>, N = 77<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Community Pharmacy</strong>, N = 36<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lab</strong>, N = 15<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>PPMV</strong>, N = 57<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">ppe_cost_bearingadd_separate_pp</td>
+<td class="gt_row gt_center">4 (24%)</td>
+<td class="gt_row gt_center">1 (33%)</td>
+<td class="gt_row gt_center">9 (33%)</td>
+<td class="gt_row gt_center">0.9</td>
+<td class="gt_row gt_center">25 (32%)</td>
+<td class="gt_row gt_center">4 (11%)</td>
+<td class="gt_row gt_center">4 (27%)</td>
+<td class="gt_row gt_center">6 (11%)</td>
+<td class="gt_row gt_center">0.006</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_in_con</td>
+<td class="gt_row gt_center">4 (24%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">4 (15%)</td>
+<td class="gt_row gt_center">0.8</td>
+<td class="gt_row gt_center">17 (22%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_in_reg</td>
+<td class="gt_row gt_center">4 (24%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">1 (3.7%)</td>
+<td class="gt_row gt_center">0.15</td>
+<td class="gt_row gt_center">15 (19%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_in_lab</td>
+<td class="gt_row gt_center">11 (65%)</td>
+<td class="gt_row gt_center">2 (67%)</td>
+<td class="gt_row gt_center">13 (48%)</td>
+<td class="gt_row gt_center">0.6</td>
+<td class="gt_row gt_center">50 (65%)</td>
+<td class="gt_row gt_center">31 (86%)</td>
+<td class="gt_row gt_center">11 (73%)</td>
+<td class="gt_row gt_center">43 (75%)</td>
+<td class="gt_row gt_center">0.12</td></tr>
+    <tr><td class="gt_row gt_left">ppe_cost_bearingincrease_mentio</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">5 (19%)</td>
+<td class="gt_row gt_center">0.2</td>
+<td class="gt_row gt_center">6 (7.8%)</td>
+<td class="gt_row gt_center">3 (8.3%)</td>
+<td class="gt_row gt_center">0 (0%)</td>
+<td class="gt_row gt_center">13 (23%)</td>
+<td class="gt_row gt_center">0.027</td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="10">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          n (%)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Fisher's exact test
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+<div id="kabieseuwb" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#kabieseuwb .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#kabieseuwb .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#kabieseuwb .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#kabieseuwb .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#kabieseuwb .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#kabieseuwb .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#kabieseuwb .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#kabieseuwb .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#kabieseuwb .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#kabieseuwb .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#kabieseuwb .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#kabieseuwb .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#kabieseuwb .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#kabieseuwb .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kabieseuwb .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#kabieseuwb .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#kabieseuwb .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#kabieseuwb .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#kabieseuwb .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#kabieseuwb .gt_left {
+  text-align: left;
+}
+
+#kabieseuwb .gt_center {
+  text-align: center;
+}
+
+#kabieseuwb .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#kabieseuwb .gt_font_normal {
+  font-weight: normal;
+}
+
+#kabieseuwb .gt_font_bold {
+  font-weight: bold;
+}
+
+#kabieseuwb .gt_font_italic {
+  font-style: italic;
+}
+
+#kabieseuwb .gt_super {
+  font-size: 65%;
+}
+
+#kabieseuwb .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -2091,10 +3713,10 @@ Total
   <thead class="gt_col_headings">
     <tr>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1"><strong>Question</strong></th>
-      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="5">
         <span class="gt_column_spanner"><strong>Kano State</strong></span>
       </th>
-      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="5">
         <span class="gt_column_spanner"><strong>Lagos State</strong></span>
       </th>
     </tr>
@@ -2103,10 +3725,12 @@ Total
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Community Pharmacy</strong>, N = 17<sup class="gt_footnote_marks">1</sup></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lab</strong>, N = 20<sup class="gt_footnote_marks">1</sup></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>PPMV</strong>, N = 550<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Clinical Facility</strong>, N = 395<sup class="gt_footnote_marks">1</sup></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Community Pharmacy</strong>, N = 91<sup class="gt_footnote_marks">1</sup></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Lab</strong>, N = 108<sup class="gt_footnote_marks">1</sup></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>PPMV</strong>, N = 266<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">3</sup></th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
@@ -2115,48 +3739,72 @@ Total
 <td class="gt_row gt_center">100% (17 / 17)</td>
 <td class="gt_row gt_center">85% (17 / 20)</td>
 <td class="gt_row gt_center">91% (502 / 550)</td>
+<td class="gt_row gt_center">0.005</td>
 <td class="gt_row gt_center">98% (389 / 395)</td>
 <td class="gt_row gt_center">97% (88 / 91)</td>
 <td class="gt_row gt_center">100% (108 / 108)</td>
-<td class="gt_row gt_center">93% (248 / 266)</td></tr>
+<td class="gt_row gt_center">93% (248 / 266)</td>
+<td class="gt_row gt_center"><0.001</td></tr>
     <tr><td class="gt_row gt_left">Facilities that Closed at least once during COVID lockdown</td>
 <td class="gt_row gt_center">17% (25 / 151)</td>
 <td class="gt_row gt_center">24% (4 / 17)</td>
 <td class="gt_row gt_center">10% (2 / 20)</td>
 <td class="gt_row gt_center">8.4% (46 / 550)</td>
+<td class="gt_row gt_center">0.007</td>
 <td class="gt_row gt_center">4.8% (19 / 395)</td>
 <td class="gt_row gt_center">11% (10 / 91)</td>
 <td class="gt_row gt_center">17% (18 / 108)</td>
-<td class="gt_row gt_center">21% (55 / 266)</td></tr>
+<td class="gt_row gt_center">21% (55 / 266)</td>
+<td class="gt_row gt_center"><0.001</td></tr>
     <tr><td class="gt_row gt_left">Times Each Facility Closed</td>
 <td class="gt_row gt_center">1.12 (0.33)</td>
 <td class="gt_row gt_center">1.00 (0.00)</td>
 <td class="gt_row gt_center">1.00 (0.00)</td>
 <td class="gt_row gt_center">1.28 (1.34)</td>
+<td class="gt_row gt_center">0.9</td>
 <td class="gt_row gt_center">1.21 (0.42)</td>
 <td class="gt_row gt_center">1.50 (0.97)</td>
 <td class="gt_row gt_center">1.11 (0.32)</td>
-<td class="gt_row gt_center">1.29 (0.79)</td></tr>
+<td class="gt_row gt_center">1.29 (0.79)</td>
+<td class="gt_row gt_center">0.6</td></tr>
     <tr><td class="gt_row gt_left" style="text-align: left; text-indent: 10px;">Number of Facilities That Did Not Shut Down</td>
 <td class="gt_row gt_center">126</td>
 <td class="gt_row gt_center">13</td>
 <td class="gt_row gt_center">18</td>
 <td class="gt_row gt_center">504</td>
+<td class="gt_row gt_center"></td>
 <td class="gt_row gt_center">376</td>
 <td class="gt_row gt_center">81</td>
 <td class="gt_row gt_center">90</td>
-<td class="gt_row gt_center">211</td></tr>
+<td class="gt_row gt_center">211</td>
+<td class="gt_row gt_center"></td></tr>
   </tbody>
   
   <tfoot>
     <tr class="gt_footnotes">
-      <td colspan="9">
+      <td colspan="11">
         <p class="gt_footnote">
           <sup class="gt_footnote_marks">
             <em>1</em>
           </sup>
            
           Mean (SD) or % (n/N)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Fisher's exact test; Kruskal-Wallis rank sum test
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>3</em>
+          </sup>
+           
+          Fisher's exact test; Pearson's Chi-squared test; Kruskal-Wallis rank sum test
           <br />
         </p>
       </td>
@@ -2329,32 +3977,2196 @@ NA
     ## 13 A D E       1 0.00431
     ## 14 B C         1 0.00431
 
-## COVID\_impact\_on\_tb\_service
-
 # Regressions
 
 Cascade = Total OPD, Total Screened, Total Diagnosed, Total Treated,
 Total Completed/Cured - Comparing April 2019 and April 2020 or Q2 2019
 vs. Q2 2020
 
+    ##                           var_name Clinical Facility Community Pharmacy   Lab
+    ## 315             outcome_fail_total              TRUE              FALSE FALSE
+    ## 320             outcome_ltfu_total              TRUE              FALSE FALSE
+    ## 325             outcome_died_total              TRUE              FALSE FALSE
+    ## 330        outcome_completed_total              TRUE              FALSE FALSE
+    ## 335      outcome_transferout_total              TRUE              FALSE FALSE
+    ## 340       outcome_transferin_total              TRUE              FALSE FALSE
+    ## 341                  outcome_total              TRUE              FALSE FALSE
+    ## 348          notifbacter_ptb_total              TRUE              FALSE  TRUE
+    ## 362          notifclinic_ptb_total              TRUE              FALSE  TRUE
+    ## 436      contactscreen_index_total              TRUE              FALSE FALSE
+    ## 441  contactscreen_household_total              TRUE              FALSE FALSE
+    ## 462  contactscreen_diagnosed_total              TRUE              FALSE FALSE
+    ## 467 contactscreen_ontreat_ds_total              TRUE              FALSE FALSE
+    ## 472 contactscreen_ontreat_dr_total              TRUE              FALSE FALSE
+    ## 473   contactscreen_starttrt_total              TRUE              FALSE FALSE
+    ##      PPMV
+    ## 315 FALSE
+    ## 320 FALSE
+    ## 325 FALSE
+    ## 330 FALSE
+    ## 335 FALSE
+    ## 340 FALSE
+    ## 341 FALSE
+    ## 348 FALSE
+    ## 362 FALSE
+    ## 436 FALSE
+    ## 441 FALSE
+    ## 462 FALSE
+    ## 467 FALSE
+    ## 472 FALSE
+    ## 473 FALSE
+
     - outcome_cured_total
     - outcome_fail_total
     - outcome_ltfu_total
     - outcome_died_total
     - outcome_completed_total
-    - outcome_transferout_total
-    - outcome_transferin_total
     - outcome_total
     - notifbacter_ptb_total
     - notifclinic_ptb_total
     - contactscreen_index_total
     - contactscreen_household_total
     - contactscreen_diagnosed_total
-    - contactscreen_ontreat_ds_total
-    - contactscreen_ontreat_dr_total
     - contactscreen_starttrt_total
+    - contactscreen_ontreat_ds_total
 
-Costs 2019 vs. 2020
+<div id="ugbluctivx" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#ugbluctivx .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ugbluctivx .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ugbluctivx .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ugbluctivx .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ugbluctivx .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ugbluctivx .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ugbluctivx .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ugbluctivx .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ugbluctivx .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ugbluctivx .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ugbluctivx .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ugbluctivx .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ugbluctivx .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#ugbluctivx .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ugbluctivx .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ugbluctivx .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ugbluctivx .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#ugbluctivx .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ugbluctivx .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#ugbluctivx .gt_left {
+  text-align: left;
+}
+
+#ugbluctivx .gt_center {
+  text-align: center;
+}
+
+#ugbluctivx .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ugbluctivx .gt_font_normal {
+  font-weight: normal;
+}
+
+#ugbluctivx .gt_font_bold {
+  font-weight: bold;
+}
+
+#ugbluctivx .gt_font_italic {
+  font-style: italic;
+}
+
+#ugbluctivx .gt_super {
+  font-size: 65%;
+}
+
+#ugbluctivx .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>April 2019</strong>, N = 472<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>April 2020</strong>, N = 472<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Difference</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>95% CI</strong><sup class="gt_footnote_marks">2,3</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">outcome_cured_total</td>
+<td class="gt_row gt_center">0.10 (0.69)</td>
+<td class="gt_row gt_center">0.20 (0.69)</td>
+<td class="gt_row gt_center">-0.11</td>
+<td class="gt_row gt_center">-0.19, -0.02</td>
+<td class="gt_row gt_center">0.017</td></tr>
+    <tr><td class="gt_row gt_left">outcome_fail_total</td>
+<td class="gt_row gt_center">0.0070 (0.1079)</td>
+<td class="gt_row gt_center">0.0139 (0.1170)</td>
+<td class="gt_row gt_center">-0.01</td>
+<td class="gt_row gt_center">-0.02, 0.01</td>
+<td class="gt_row gt_center">0.4</td></tr>
+    <tr><td class="gt_row gt_left">outcome_died_total</td>
+<td class="gt_row gt_center">0.0047 (0.0682)</td>
+<td class="gt_row gt_center">0.0346 (0.1831)</td>
+<td class="gt_row gt_center">-0.03</td>
+<td class="gt_row gt_center">-0.05, -0.01</td>
+<td class="gt_row gt_center">0.002</td></tr>
+    <tr><td class="gt_row gt_left">outcome_completed_total</td>
+<td class="gt_row gt_center">0.04 (0.22)</td>
+<td class="gt_row gt_center">0.14 (0.43)</td>
+<td class="gt_row gt_center">-0.11</td>
+<td class="gt_row gt_center">-0.16, -0.07</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">outcome_total</td>
+<td class="gt_row gt_center">0.18 (0.88)</td>
+<td class="gt_row gt_center">0.51 (1.12)</td>
+<td class="gt_row gt_center">-0.35</td>
+<td class="gt_row gt_center">-0.47, -0.23</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">notifbacter_ptb_total</td>
+<td class="gt_row gt_center">0.43 (1.16)</td>
+<td class="gt_row gt_center">0.21 (0.84)</td>
+<td class="gt_row gt_center">0.23</td>
+<td class="gt_row gt_center">0.13, 0.32</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">notifclinic_ptb_total</td>
+<td class="gt_row gt_center">0.11 (0.40)</td>
+<td class="gt_row gt_center">0.10 (0.45)</td>
+<td class="gt_row gt_center">0.00</td>
+<td class="gt_row gt_center">-0.05, 0.06</td>
+<td class="gt_row gt_center">>0.9</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_index_total</td>
+<td class="gt_row gt_center">0.35 (1.49)</td>
+<td class="gt_row gt_center">0.08 (0.47)</td>
+<td class="gt_row gt_center">0.28</td>
+<td class="gt_row gt_center">0.13, 0.44</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_household_total</td>
+<td class="gt_row gt_center">0.79 (3.30)</td>
+<td class="gt_row gt_center">0.16 (1.03)</td>
+<td class="gt_row gt_center">0.65</td>
+<td class="gt_row gt_center">0.31, 1.0</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_diagnosed_total</td>
+<td class="gt_row gt_center">0.0233 (0.2255)</td>
+<td class="gt_row gt_center">0.0023 (0.0481)</td>
+<td class="gt_row gt_center">0.02</td>
+<td class="gt_row gt_center">0.00, 0.04</td>
+<td class="gt_row gt_center">0.060</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_starttrt_total</td>
+<td class="gt_row gt_center">0.0233 (0.2255)</td>
+<td class="gt_row gt_center">0.0023 (0.0481)</td>
+<td class="gt_row gt_center">0.02</td>
+<td class="gt_row gt_center">0.00, 0.04</td>
+<td class="gt_row gt_center">0.060</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_ontreat_ds_total</td>
+<td class="gt_row gt_center">0.0233 (0.2255)</td>
+<td class="gt_row gt_center">0.0023 (0.0481)</td>
+<td class="gt_row gt_center">0.02</td>
+<td class="gt_row gt_center">0.00, 0.04</td>
+<td class="gt_row gt_center">0.060</td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="6">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          Mean (SD)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Paired t-test
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>3</em>
+          </sup>
+           
+          CI = Confidence Interval
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+<div id="fowijetoxw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#fowijetoxw .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#fowijetoxw .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#fowijetoxw .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#fowijetoxw .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#fowijetoxw .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#fowijetoxw .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#fowijetoxw .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#fowijetoxw .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fowijetoxw .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fowijetoxw .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#fowijetoxw .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#fowijetoxw .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#fowijetoxw .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#fowijetoxw .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fowijetoxw .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fowijetoxw .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#fowijetoxw .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#fowijetoxw .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fowijetoxw .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#fowijetoxw .gt_left {
+  text-align: left;
+}
+
+#fowijetoxw .gt_center {
+  text-align: center;
+}
+
+#fowijetoxw .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#fowijetoxw .gt_font_normal {
+  font-weight: normal;
+}
+
+#fowijetoxw .gt_font_bold {
+  font-weight: bold;
+}
+
+#fowijetoxw .gt_font_italic {
+  font-style: italic;
+}
+
+#fowijetoxw .gt_super {
+  font-size: 65%;
+}
+
+#fowijetoxw .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>May 2019</strong>, N = 472<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>May 2020</strong>, N = 472<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Difference</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>95% CI</strong><sup class="gt_footnote_marks">2,3</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">outcome_cured_total</td>
+<td class="gt_row gt_center">0.10 (0.50)</td>
+<td class="gt_row gt_center">0.16 (0.67)</td>
+<td class="gt_row gt_center">-0.06</td>
+<td class="gt_row gt_center">-0.12, 0.00</td>
+<td class="gt_row gt_center">0.047</td></tr>
+    <tr><td class="gt_row gt_left">outcome_fail_total</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center">0.0093 (0.0959)</td>
+<td class="gt_row gt_center">-0.01</td>
+<td class="gt_row gt_center">-0.02, 0.00</td>
+<td class="gt_row gt_center">0.045</td></tr>
+    <tr><td class="gt_row gt_left">outcome_died_total</td>
+<td class="gt_row gt_center">0.0115 (0.1068)</td>
+<td class="gt_row gt_center">0.0208 (0.1430)</td>
+<td class="gt_row gt_center">-0.01</td>
+<td class="gt_row gt_center">-0.03, 0.01</td>
+<td class="gt_row gt_center">0.2</td></tr>
+    <tr><td class="gt_row gt_left">outcome_completed_total</td>
+<td class="gt_row gt_center">0.07 (0.40)</td>
+<td class="gt_row gt_center">0.13 (0.50)</td>
+<td class="gt_row gt_center">-0.06</td>
+<td class="gt_row gt_center">-0.12, -0.01</td>
+<td class="gt_row gt_center">0.027</td></tr>
+    <tr><td class="gt_row gt_left">outcome_total</td>
+<td class="gt_row gt_center">0.21 (0.88)</td>
+<td class="gt_row gt_center">0.43 (1.28)</td>
+<td class="gt_row gt_center">-0.22</td>
+<td class="gt_row gt_center">-0.33, -0.11</td>
+<td class="gt_row gt_center"><0.001</td></tr>
+    <tr><td class="gt_row gt_left">notifbacter_ptb_total</td>
+<td class="gt_row gt_center">0.33 (1.17)</td>
+<td class="gt_row gt_center">0.28 (0.96)</td>
+<td class="gt_row gt_center">0.06</td>
+<td class="gt_row gt_center">-0.02, 0.15</td>
+<td class="gt_row gt_center">0.2</td></tr>
+    <tr><td class="gt_row gt_left">notifclinic_ptb_total</td>
+<td class="gt_row gt_center">0.09 (0.33)</td>
+<td class="gt_row gt_center">0.13 (0.47)</td>
+<td class="gt_row gt_center">-0.04</td>
+<td class="gt_row gt_center">-0.09, 0.02</td>
+<td class="gt_row gt_center">0.2</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_index_total</td>
+<td class="gt_row gt_center">0.18 (1.25)</td>
+<td class="gt_row gt_center">0.19 (0.91)</td>
+<td class="gt_row gt_center">-0.01</td>
+<td class="gt_row gt_center">-0.11, 0.08</td>
+<td class="gt_row gt_center">0.8</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_household_total</td>
+<td class="gt_row gt_center">0.44 (2.64)</td>
+<td class="gt_row gt_center">0.53 (2.53)</td>
+<td class="gt_row gt_center">-0.09</td>
+<td class="gt_row gt_center">-0.33, 0.16</td>
+<td class="gt_row gt_center">0.5</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_diagnosed_total</td>
+<td class="gt_row gt_center">0.0276 (0.2788)</td>
+<td class="gt_row gt_center">0.0093 (0.1176)</td>
+<td class="gt_row gt_center">0.02</td>
+<td class="gt_row gt_center">-0.01, 0.05</td>
+<td class="gt_row gt_center">0.2</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_starttrt_total</td>
+<td class="gt_row gt_center">0.0161 (0.1725)</td>
+<td class="gt_row gt_center">0.0023 (0.0481)</td>
+<td class="gt_row gt_center">0.01</td>
+<td class="gt_row gt_center">0.00, 0.03</td>
+<td class="gt_row gt_center">0.11</td></tr>
+    <tr><td class="gt_row gt_left">contactscreen_ontreat_ds_total</td>
+<td class="gt_row gt_center">0.0161 (0.1725)</td>
+<td class="gt_row gt_center">0.0023 (0.0481)</td>
+<td class="gt_row gt_center">0.01</td>
+<td class="gt_row gt_center">0.00, 0.03</td>
+<td class="gt_row gt_center">0.11</td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="6">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          Mean (SD)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Paired t-test
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>3</em>
+          </sup>
+           
+          CI = Confidence Interval
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+
+## Costs 2019 vs. 2020
+
+-   cost\_of\_registration
+-   cost\_of\_consultation\_prior\_diag
+-   cost\_of\_sptum\_afb\_test
+-   cost\_of\_gene\_xpert\_test
+-   cost\_of\_xray\_test
+-   treatment\_amount
+-   cost\_of\_hiv\_test
+-   cost\_tb\_drugs\_for\_6mo\_trt
+-   cost\_tb\_consultations\_for\_6mo
+-   cost\_tb\_followup\_tests\_for\_6mo
+
+### Kano
+
+<div id="yqplwkdour" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#yqplwkdour .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#yqplwkdour .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#yqplwkdour .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#yqplwkdour .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#yqplwkdour .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#yqplwkdour .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#yqplwkdour .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#yqplwkdour .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#yqplwkdour .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#yqplwkdour .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#yqplwkdour .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#yqplwkdour .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#yqplwkdour .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#yqplwkdour .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yqplwkdour .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#yqplwkdour .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#yqplwkdour .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#yqplwkdour .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#yqplwkdour .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#yqplwkdour .gt_left {
+  text-align: left;
+}
+
+#yqplwkdour .gt_center {
+  text-align: center;
+}
+
+#yqplwkdour .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#yqplwkdour .gt_font_normal {
+  font-weight: normal;
+}
+
+#yqplwkdour .gt_font_bold {
+  font-weight: bold;
+}
+
+#yqplwkdour .gt_font_italic {
+  font-style: italic;
+}
+
+#yqplwkdour .gt_super {
+  font-size: 65%;
+}
+
+#yqplwkdour .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="6">
+        <span class="gt_column_spanner"><strong>Clinical Facility</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>Community Pharmacy</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>Lab</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>PPMV</strong></span>
+      </th>
+    </tr>
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 217<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 217<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Difference</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>95% CI</strong><sup class="gt_footnote_marks">2,3</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 28<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 28<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 35<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 35<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 804<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 804<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">cost_of_registration</td>
+<td class="gt_row gt_center">139</td>
+<td class="gt_row gt_center">648 (2,282)</td>
+<td class="gt_row gt_center">597 (1,078)</td>
+<td class="gt_row gt_center">51</td>
+<td class="gt_row gt_center">-512, 615</td>
+<td class="gt_row gt_center">0.9</td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">2</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">750 (1,061)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_consultation_prior_diag</td>
+<td class="gt_row gt_center">147</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">599 (937)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">6</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">1,167 (983)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_sptum_afb_test</td>
+<td class="gt_row gt_center">250</td>
+<td class="gt_row gt_center">5.8252 (59.1198)</td>
+<td class="gt_row gt_center">48.9796 (236.8073)</td>
+<td class="gt_row gt_center">-43</td>
+<td class="gt_row gt_center">-83, -2.9</td>
+<td class="gt_row gt_center">0.036</td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">15</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">307 (271)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">6</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_gene_xpert_test</td>
+<td class="gt_row gt_center">250</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center">7.5442 (58.6208)</td>
+<td class="gt_row gt_center">-7.5</td>
+<td class="gt_row gt_center">-17, 2.0</td>
+<td class="gt_row gt_center">0.12</td>
+<td class="gt_row gt_center">2</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">6</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">8</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_xray_test</td>
+<td class="gt_row gt_center">132</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center">233.3333 (762.6331)</td>
+<td class="gt_row gt_center">-233</td>
+<td class="gt_row gt_center">-518, 51</td>
+<td class="gt_row gt_center">0.10</td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">2</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">treatment_amount</td>
+<td class="gt_row gt_center">102</td>
+<td class="gt_row gt_center">539 (2,504)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_hiv_test</td>
+<td class="gt_row gt_center">243</td>
+<td class="gt_row gt_center">294 (450)</td>
+<td class="gt_row gt_center">566 (542)</td>
+<td class="gt_row gt_center">-273</td>
+<td class="gt_row gt_center">-399, -146</td>
+<td class="gt_row gt_center"><0.001</td>
+<td class="gt_row gt_center">2</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">1,000.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">17</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">1,071 (406)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">8</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">938 (417)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_tb_drugs_for_6mo_trt</td>
+<td class="gt_row gt_center">147</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">57.8231 (480.8561)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">6</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_tb_consultations_for_6mo</td>
+<td class="gt_row gt_center">147</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">269 (1,747)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">6</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_tb_followup_tests_for_6mo</td>
+<td class="gt_row gt_center">147</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">40.8163 (237.7852)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">6</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (0.0000)</td>
+<td class="gt_row gt_center"></td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="19">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          Mean (SD)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Welch Two Sample t-test
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>3</em>
+          </sup>
+           
+          CI = Confidence Interval
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
+
+### Lagos
+
+<div id="qxjnxplyco" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+}
+
+#qxjnxplyco .gt_table {
+  display: table;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#qxjnxplyco .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 0;
+  padding-bottom: 4px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#qxjnxplyco .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#qxjnxplyco .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#qxjnxplyco .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#qxjnxplyco .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#qxjnxplyco .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#qxjnxplyco .gt_group_heading {
+  padding: 8px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#qxjnxplyco .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#qxjnxplyco .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#qxjnxplyco .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#qxjnxplyco .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#qxjnxplyco .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 12px;
+}
+
+#qxjnxplyco .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qxjnxplyco .gt_first_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#qxjnxplyco .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#qxjnxplyco .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding: 4px;
+}
+
+#qxjnxplyco .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#qxjnxplyco .gt_sourcenote {
+  font-size: 90%;
+  padding: 4px;
+}
+
+#qxjnxplyco .gt_left {
+  text-align: left;
+}
+
+#qxjnxplyco .gt_center {
+  text-align: center;
+}
+
+#qxjnxplyco .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#qxjnxplyco .gt_font_normal {
+  font-weight: normal;
+}
+
+#qxjnxplyco .gt_font_bold {
+  font-weight: bold;
+}
+
+#qxjnxplyco .gt_font_italic {
+  font-style: italic;
+}
+
+#qxjnxplyco .gt_super {
+  font-size: 65%;
+}
+
+#qxjnxplyco .gt_footnote_marks {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 65%;
+}
+</style>
+<table class="gt_table">
+  
+  <thead class="gt_col_headings">
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="2" colspan="1"><strong>Characteristic</strong></th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="6">
+        <span class="gt_column_spanner"><strong>Clinical Facility</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>Community Pharmacy</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>Lab</strong></span>
+      </th>
+      <th class="gt_center gt_columns_top_border gt_column_spanner_outer" rowspan="1" colspan="4">
+        <span class="gt_column_spanner"><strong>PPMV</strong></span>
+      </th>
+    </tr>
+    <tr>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 472<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 472<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>Difference</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>95% CI</strong><sup class="gt_footnote_marks">2,3</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong><sup class="gt_footnote_marks">2</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 195<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 195<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 140<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 140<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>N</strong></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2019</strong>, N = 511<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>2020</strong>, N = 511<sup class="gt_footnote_marks">1</sup></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1"><strong>p-value</strong></th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td class="gt_row gt_left">cost_of_registration</td>
+<td class="gt_row gt_center">583</td>
+<td class="gt_row gt_center">1,385 (3,663)</td>
+<td class="gt_row gt_center">1,630 (4,476)</td>
+<td class="gt_row gt_center">-245</td>
+<td class="gt_row gt_center">-1,001, 511</td>
+<td class="gt_row gt_center">0.5</td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_consultation_prior_diag</td>
+<td class="gt_row gt_center">394</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">823 (2,411)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_sptum_afb_test</td>
+<td class="gt_row gt_center">798</td>
+<td class="gt_row gt_center">119 (491)</td>
+<td class="gt_row gt_center">192 (689)</td>
+<td class="gt_row gt_center">-73</td>
+<td class="gt_row gt_center">-157, 9.9</td>
+<td class="gt_row gt_center">0.084</td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">88</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">993 (1,133)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_gene_xpert_test</td>
+<td class="gt_row gt_center">802</td>
+<td class="gt_row gt_center">2.4510 (34.9640)</td>
+<td class="gt_row gt_center">76.1421 (1,269.2244)</td>
+<td class="gt_row gt_center">-74</td>
+<td class="gt_row gt_center">-199, 52</td>
+<td class="gt_row gt_center">0.3</td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">97</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">51.5464 (326.6348)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_xray_test</td>
+<td class="gt_row gt_center">573</td>
+<td class="gt_row gt_center">347 (1,207)</td>
+<td class="gt_row gt_center">1,656 (2,208)</td>
+<td class="gt_row gt_center">-1,309</td>
+<td class="gt_row gt_center">-1,658, -960</td>
+<td class="gt_row gt_center"><0.001</td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">treatment_amount</td>
+<td class="gt_row gt_center">402</td>
+<td class="gt_row gt_center">2,190 (7,009)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_of_hiv_test</td>
+<td class="gt_row gt_center">796</td>
+<td class="gt_row gt_center">732 (796)</td>
+<td class="gt_row gt_center">1,035 (792)</td>
+<td class="gt_row gt_center">-303</td>
+<td class="gt_row gt_center">-413, -192</td>
+<td class="gt_row gt_center"><0.001</td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">103</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">1,212 (423)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_tb_drugs_for_6mo_trt</td>
+<td class="gt_row gt_center">394</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">2,674 (7,251)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_tb_consultations_for_6mo</td>
+<td class="gt_row gt_center">394</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">736 (3,210)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+    <tr><td class="gt_row gt_left">cost_tb_followup_tests_for_6mo</td>
+<td class="gt_row gt_center">394</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">251 (793)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">1</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">0.0000 (NA)</td>
+<td class="gt_row gt_center"></td>
+<td class="gt_row gt_center">0</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center">NA (NA)</td>
+<td class="gt_row gt_center"></td></tr>
+  </tbody>
+  
+  <tfoot>
+    <tr class="gt_footnotes">
+      <td colspan="19">
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>1</em>
+          </sup>
+           
+          Mean (SD)
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>2</em>
+          </sup>
+           
+          Welch Two Sample t-test
+          <br />
+        </p>
+        <p class="gt_footnote">
+          <sup class="gt_footnote_marks">
+            <em>3</em>
+          </sup>
+           
+          CI = Confidence Interval
+          <br />
+        </p>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+</div>
 
 # Additional Variables of Interest
 
