@@ -1,0 +1,109 @@
+## Fixing the dataset for Ben -------------------
+
+library(tidyverse)
+
+data <- read_csv("C:/Users/angie/McGill University/COVID Private Markets @ McGill_Group - General/Nigeria/Program data/Provider database filled in.csv", guess_max = 84070)
+
+# Find out which variables are coded NA/Yes/No
+
+results <- lapply(data, unique)
+
+results[["facility_open_accept_clients"]]
+results[["facility_closed_shutdown"]]
+results[["facility_incrmnt_fees_due_ppe"]]
+results[["registration_req_screen"]]
+results[["registration_reqd_prior_tb_test"]]
+results[["facility_offer_sputum_testing"]]
+results[["facil_offer_genexpert_testing"]] ## this one is ".", "no", "yes"
+results[["facility_offer_xray_service"]]
+results[["facility_offer_hiv_testing"]]
+results[["other_cost_incur_by_tb_patients"]]
+results[["discounts_available"]]
+results[["telemedicine_service"]]
+results[["telemedicine_for_tb_service"]]
+results[["telemedicine_for_tb_screening"]]
+results[["tb_diagnosedcounsel_using_telem"]]
+results[["tb_trtmonitoring_using_telem"]]
+
+# Fix the date
+data$monthyear <- parse_date(data$monthyear, format = "%b-%y")
+
+# Transform Yes/No columns to 1 and 0
+
+data$facility_open_accept_clients[data$facility_open_accept_clients == "Yes"] <- 1
+data$facility_open_accept_clients[data$facility_open_accept_clients == "No"] <- 0
+data$facility_open_accept_clients <- as.numeric(data$facility_open_accept_clients)
+
+data$facility_closed_shutdown[data$facility_closed_shutdown == "Yes"] <- 1
+data$facility_closed_shutdown[data$facility_closed_shutdown == "No"] <- 0
+data$facility_closed_shutdown <- as.numeric(data$facility_closed_shutdown)
+
+data$facility_incrmnt_fees_due_ppe[data$facility_incrmnt_fees_due_ppe == "Yes"] <- 1
+data$facility_incrmnt_fees_due_ppe[data$facility_incrmnt_fees_due_ppe == "No"] <- 0
+data$facility_incrmnt_fees_due_ppe <- as.numeric(data$facility_incrmnt_fees_due_ppe)
+
+data$registration_req_screen[data$registration_req_screen == "Yes"] <- 1
+data$registration_req_screen[data$registration_req_screen == "No"] <- 0
+data$registration_req_screen <- as.numeric(data$registration_req_screen)
+
+data$registration_reqd_prior_tb_test[data$registration_reqd_prior_tb_test == "Yes"] <- 1
+data$registration_reqd_prior_tb_test[data$registration_reqd_prior_tb_test == "No"] <- 0
+data$registration_reqd_prior_tb_test <- as.numeric(data$registration_reqd_prior_tb_test)
+
+data$facility_offer_sputum_testing[data$facility_offer_sputum_testing == "Yes"] <- 1
+data$facility_offer_sputum_testing[data$facility_offer_sputum_testing == "No"] <- 0
+data$facility_offer_sputum_testing <- as.numeric(data$facility_offer_sputum_testing)
+
+data$facil_offer_genexpert_testing[data$facil_offer_genexpert_testing == "yes"] <- 1
+data$facil_offer_genexpert_testing[data$facil_offer_genexpert_testing == "no"] <- 0
+data$facil_offer_genexpert_testing[data$facil_offer_genexpert_testing == "."] <- NA
+data$facil_offer_genexpert_testing <- as.numeric(data$facil_offer_genexpert_testing)
+
+data$facility_offer_xray_service[data$facility_offer_xray_service == "Yes"] <- 1
+data$facility_offer_xray_service[data$facility_offer_xray_service == "No"] <- 0
+data$facility_offer_xray_service <- as.numeric(data$facility_offer_xray_service)
+
+data$facility_offer_hiv_testing[data$facility_offer_hiv_testing == "Yes"] <- 1
+data$facility_offer_hiv_testing[data$facility_offer_hiv_testing == "No"] <- 0
+data$facility_offer_hiv_testing <- as.numeric(data$facility_offer_hiv_testing)
+
+data$other_cost_incur_by_tb_patients[data$other_cost_incur_by_tb_patients == "Yes"] <- 1
+data$other_cost_incur_by_tb_patients[data$other_cost_incur_by_tb_patients == "No"] <- 0
+data$other_cost_incur_by_tb_patients <- as.numeric(data$other_cost_incur_by_tb_patients)
+
+data$discounts_available[data$discounts_available == "Yes"] <- 1
+data$discounts_available[data$discounts_available == "No"] <- 0
+data$discounts_available <- as.numeric(data$discounts_available)
+
+data$telemedicine_service[data$telemedicine_service == "Yes"] <- 1
+data$telemedicine_service[data$telemedicine_service == "No"] <- 0
+data$telemedicine_service <- as.numeric(data$telemedicine_service)
+
+data$telemedicine_for_tb_service[data$telemedicine_for_tb_service == "Yes"] <- 1
+data$telemedicine_for_tb_service[data$telemedicine_for_tb_service == "No"] <- 0
+data$telemedicine_for_tb_service <- as.numeric(data$telemedicine_for_tb_service)
+
+data$telemedicine_for_tb_screening[data$telemedicine_for_tb_screening == "Yes"] <- 1
+data$telemedicine_for_tb_screening[data$telemedicine_for_tb_screening == "No"] <- 0
+data$telemedicine_for_tb_screening <- as.numeric(data$telemedicine_for_tb_screening)
+
+data$tb_diagnosedcounsel_using_telem[data$tb_diagnosedcounsel_using_telem == "Yes"] <- 1
+data$tb_diagnosedcounsel_using_telem[data$tb_diagnosedcounsel_using_telem == "No"] <- 0
+data$tb_diagnosedcounsel_using_telem <- as.numeric(data$tb_diagnosedcounsel_using_telem)
+
+data$tb_trtmonitoring_using_telem[data$tb_trtmonitoring_using_telem == "Yes"] <- 1
+data$tb_trtmonitoring_using_telem[data$tb_trtmonitoring_using_telem == "No"] <- 0
+data$tb_trtmonitoring_using_telem <- as.numeric(data$tb_trtmonitoring_using_telem)
+
+data <- data %>% 
+  rename(covid_impact_on_tb_service = COVID_impact_on_tb_service)
+
+# Double-check that everything is fixed
+
+results <- lapply(data, unique)
+View(results)
+
+# Export the dataset
+
+
+haven::write_dta(data, path="C:/Users/angie/McGill University/COVID Private Markets @ McGill_Group - General/Nigeria/Program data/Provider database filled in.dta")
