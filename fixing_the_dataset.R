@@ -1,8 +1,8 @@
-## Fixing the dataset for Ben -------------------
+## Fixing the dataset for Ben (updated with June 2021 data) -------------------
 
 library(tidyverse)
 
-data <- read_csv("C:/Users/angie/McGill University/COVID Private Markets @ McGill_Group - General/Nigeria/Program data/Provider database filled in.csv", guess_max = 84070)
+data <- read_csv("./data/SHOPS Plus Progam Data May 2018-June2021.csv", guess_max = 91271)
 
 # Find out which variables are coded NA/Yes/No
 
